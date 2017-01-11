@@ -114,3 +114,13 @@
 - The first and second occurence of "Account" word in statement is used for application domain concepts because the phrases in which these words are used tell the requirement of the system. It also tells the use case, the sequence of event and various users' problem.
 
 - The third and fourth occurrence of "Account" word in statement is used for solution domain concept because it gives the implementation details about the system and user's problem. It gives solutions to the developer, how to show user that he can access his bank account on mobile computer.
+
+** 9. What is the difference between a task and an activity?
+
+ S. No | Task | Activity
+  ---  | ---  | ---
+1      |   A task means atomic part of work.   |  An activitiy is a sequence of events that has a specific purporse.
+2      | Represents the work but cannot be divided further.      | Also represents the work but can be further divided.
+3      | A task is an element of activity      | Activity is a collection of various tasks.
+4      | The task signifies that the activity is completed      | Activity signifies that the work is under process and has not yet been completed.
+5      | Example: Risk analysis, code implementation are the task of the project development which are assigned by the project head to the team members.     | Example: Consider a project management activity which includes risk analysis, monitoring and code implementation.
