@@ -72,7 +72,7 @@
     * The main motive behind using the touch screen for displaying instructions and accessing commands is to make TicketDistributor is to make the interface more user friendly. Also, a touch screen will also remove the need for extra hardware (such as: mouse, keyboard, etc) which is needed for inputting any command. The cancel button is used as an alternative for cancelling any transactions when the touchscreen stops functioning properly.
 
 
-** 6. Specify which of these statements are functional requirements and which are nonfunctional requirements:
+** 6. <strong>Specify which of these statements are functional requirements and which are nonfunctional requirements:</strong>
 
 * "The <code>TicketDistributor</code> must enable a traveler to buy weekly passes."
   * Functional Requirement
@@ -94,7 +94,7 @@
   * Functional Requirement
 
 
-** 7. Specify which of these decisions were made during requirements or system design:
+** 7. <strong>Specify which of these decisions were made during requirements or system design:</strong>
 
 * "The <code>TicketDistributor</code> is composed of a user interface subsystem, a subsystem for computing tariff, and a network subsystem for managing communication with the central computer"
   * System design
@@ -107,7 +107,7 @@
 * "The <code>TicketDistributor</code> provides the traveler with online help."
   * Functional Requirement
 
-** 8. In the following description, explain when the term <code>account</code> is used as an application domain concept and when as a solution domain concept:
+** 8. <strong>In the following description, explain when the term <code>account</code> is used as an application domain concept and when as a solution domain concept:</strong>
 
   <i>"Assume you are developing an online system for managing bank accounts for mobile customers. A major design issue is how to provide access to the accounts when the customer cannot establish an online connection. One proposal is that accounts are made available on the mobile computer, even if the server is not up. In this case, the accounts show the amounts from the last connected session."</i>
 
@@ -115,7 +115,7 @@
 
 - The third and fourth occurrence of "Account" word in statement is used for solution domain concept because it gives the implementation details about the system and user's problem. It gives solutions to the developer, how to show user that he can access his bank account on mobile computer.
 
-** 9. What is the difference between a task and an activity?
+** 9. <strong>What is the difference between a task and an activity?</strong>
 
  S. No | Task | Activity
   ---  | ---  | ---
