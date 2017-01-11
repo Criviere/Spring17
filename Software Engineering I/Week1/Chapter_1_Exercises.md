@@ -32,8 +32,85 @@
 
   2. <strong>Traceability:</strong> Same notation is used in all of the development process so it is easier to compare two models. It also helps in predicting the estimate time required to complete the development process.
 
-b. <strong>Disadvantages:</strong> Disadvantages of using programming language notation as sole notation for development process are as follow:
+  b. <strong>Disadvantages:</strong> Disadvantages of using programming language notation as sole notation for development process are as follow:
 
-1. <strong>Difficulty in representation:</strong> Programming languages have a very poor quality of notation. As a result, it becomes very difficult to represent all of the user requirements by utilizing the programming language notation. If the requirements of the user are not properly represented then there is a possibility that the final manufactured system will differ from the requested system.
+  1. <strong>Difficulty in representation:</strong> Programming languages have a very poor quality of notation. As a result, it becomes very difficult to represent all of the user requirements by utilizing the programming language notation. If the requirements of the user are not properly represented then there is a possibility that the final manufactured system will differ from the requested system.
 
-2. <strong>Implementation starts earlier:</strong> Due to the programming language notation, programmers starts their implementation at the early state before analyzing the whole model. It also raises the problem where after completing three or four modules a developer may get stuck which may require a lot of modification. If developer starts implementation of the system are analyzing the whole model then their will be less of a chance that the developer will be stuck in implementation.
+  2. <strong>Implementation starts earlier:</strong> Due to the programming language notation, programmers starts their implementation at the early state before analyzing the whole model. It also raises the problem where after completing three or four modules a developer may get stuck which may require a lot of modification. If developer starts implementation of the system are analyzing the whole model then their will be less of a chance that the developer will be stuck in implementation.
+
+3. <strong>Consider a task you are not familiar with, such as designing a zero-emissions car. How would you attack the problem?</strong>
+
+    a. Divide the problem into smaller problems as much as possible. After breaking down the main problem into smaller problems your main problem will be defined precisely.
+
+    b. Using the information already collected, determine the boundaries of the solution space.
+
+    c. Collect data from domain experts as well as non-experts.
+
+    d. Using all the collected data, design a prototype. Prototype manufacturing does not require more investment but can be used to verify if the developer is headed in the right direction or not.
+
+4. <strong>What is meant by "knowledge acquisition is not sequential?" Provide a concrete example of knowledge acquisition that illustrates this:</strong>
+
+  a. It means that learning a new knowledge can provide that prior knowledge is wrong. In other words, new knowledge can invalidate your old knowledge.
+
+  <strong>Example:</strong> In 1897 JJ. Thompson stated the Plum pudding model of an atom. According to Thompson his atom is made up of an electron which is surrounded by a small positive charge, like negative charge plums is surrounded by the positive charge pudding. In 1911 Rutherford contradicted this theory by stating that each atom has a small nucleus which is composed of positive charge protons and neutrally charged neutrons. The electrons move around this nucleus.
+
+5. <strong>Hypothesize a rationale for the following design decisions:</strong>
+
+
+* "The <code>TicketDistributor</code> will be at most one and a half meters tall."
+
+  * The justification for the first statement "The TicketDistributor will be at most one and a half meters tall." is as follow: If the height of the TicketDistributor is greater than one and a half meter then the small children, dwarves and a person sitting on a wheelchair may not be able to purchase the ticket of its own. They always depend on the other person for buying a ticket. So it is better for everyone if the TicketDistributor is one and a half meter tall.
+
+
+* "The <code>TicketDistributor</code> will include two redundant computer systems."
+
+ * The justification for the second statement "The TicketDistributor will include two redundant computer systems." is as follow: If TicketDistributor has two redundant computer systems then that will increase the ticket distributions speed. If by any chance one computer system falls then we will not suffer setbacks because we will still have one system left for ticket distribution.
+
+
+  *  "The <code>TicketDistributor</code> interface will consist of a touch screen for displaying instructions and accessing commands and a single button for aborting transactions."
+
+    * The main motive behind using the touch screen for displaying instructions and accessing commands is to make TicketDistributor is to make the interface more user friendly. Also, a touch screen will also remove the need for extra hardware (such as: mouse, keyboard, etc) which is needed for inputting any command. The cancel button is used as an alternative for cancelling any transactions when the touchscreen stops functioning properly.
+
+
+** 6. Specify which of these statements are functional requirements and which are nonfunctional requirements:
+
+* "The <code>TicketDistributor</code> must enable a traveler to buy weekly passes."
+  * Functional Requirement
+
+
+* "The <code>TicketDistributor</code> must be written in Java."
+  * Non-functional Requirement
+
+
+* "The <code>TicketDistributor</code> must be easy to use."
+  * Non-functional Requirement
+
+
+* "The <code>TicketDistributor</code> must always be available."
+  * Non-functional Requirement
+
+
+* "The <code>TicketDistributor</code> must provide a phone number to call when it fails."
+  * Functional Requirement
+
+
+** 7. Specify which of these decisions were made during requirements or system design:
+
+* "The <code>TicketDistributor</code> is composed of a user interface subsystem, a subsystem for computing tariff, and a network subsystem for managing communication with the central computer"
+  * System design
+
+
+* "The <code>TicketDistributor</code> hardware uses PowerPC processor chips"
+  * System design
+
+
+* "The <code>TicketDistributor</code> provides the traveler with online help."
+  * Functional Requirement
+
+** 8. In the following description, explain when the term <code>account</code> is used as an application domain concept and when as a solution domain concept:
+
+  <i>"Assume you are developing an online system for managing bank accounts for mobile customers. A major design issue is how to provide access to the accounts when the customer cannot establish an online connection. One proposal is that accounts are made available on the mobile computer, even if the server is not up. In this case, the accounts show the amounts from the last connected session."</i>
+
+- The first and second occurence of "Account" word in statement is used for application domain concepts because the phrases in which these words are used tell the requirement of the system. It also tells the use case, the sequence of event and various users' problem.
+
+- The third and fourth occurrence of "Account" word in statement is used for solution domain concept because it gives the implementation details about the system and user's problem. It gives solutions to the developer, how to show user that he can access his bank account on mobile computer.
