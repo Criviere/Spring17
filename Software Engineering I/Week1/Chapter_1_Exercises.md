@@ -124,3 +124,13 @@
 3      | A task is an element of activity      | Activity is a collection of various tasks.
 4      | The task signifies that the activity is completed      | Activity signifies that the work is under process and has not yet been completed.
 5      | Example: Risk analysis, code implementation are the task of the project development which are assigned by the project head to the team members.     | Example: Consider a project management activity which includes risk analysis, monitoring and code implementation.
+
+** 10. A passenger aircraft is composed of several millions of parts and requires thousands of persons to assemble. A four-lane highway bridge is another example of complexity. The first version of Word for Windows, a word processor released by Microsoft in 1989, required 55 person-years, resulted into 249,000 lines of source code, and was delivered 4 years late. Aircraft and highway bridges are usually delivered on time and within budget, whereas software is often not. Discuss what are, in your opinion, the differences between developing an aircraft, a bridge, and a word processor that would cause this situation.
+
+  1. From the statements in the questions it is concluded that the software systems are not only the complex system but there are lots of other complex systems like aircraft manufacturing, bridge manufacturing. The following point states that why the manufacturer or developers are able to deliver the complex system like aircraft and bridge on time but in case word development for windows, an innovative approach is required which is not yet developed.
+
+  2. Aircraft and bridge developer take reference from the previous manufacture aircraft and bridge that is why they are able to give more accurate budget and completion date of the project which is not possible in the case of software development.
+
+  3. Penalties associated with the completion of aircraft and bridge manufacturing are more severe than software development that's why there are delivered on time.
+
+  4. Most new developed aircraft and bridges are similar to previous builds. They are simply refining the previous product. This is not always the case in software development.
