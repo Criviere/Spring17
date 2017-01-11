@@ -35,3 +35,17 @@
 6. What is the 3 firm market share concentration in the east?
 
     * 500 + 500 + 875 / 2500 = 0.75
+
+<br>
+
+<strong>Alternative Definition of Market Share:</strong>
+
+Market Share = Share of Penetration * Usage Index * Share of Requirements
+
+<strong>Sample Problem:</strong>
+
+Suppose that over the period of a month, 400 households bought tegok brand of cable organizers. During that same month, 2000 households bought at least one product from any brand in the cable organizer category. The usage index of household in Miami that purchase Tegok is 1.2. Also, suppose that for the same period of time, the total unit purchases of households that bought Tegok brand was 5000 units. Those same house households bought 10,000 cable organizers in total.
+
+What is the market share for Tegok brand in Miami?
+
+0.2 * 1.2 * 0.5 = 0.12
